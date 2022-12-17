@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+    background-color: #111;
+    overflow: hidden;
+}
+
+.headContainer {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background: #111;
+    align-items: center;
+}
+
+.headTextContainer {
+    flex: 3;
+}
+
+.headImageContainer {
+    flex: 1;
+}
+
+.headText {
+    font-size: 60vw;
+    color: #333;
+    font-weight: 600;
+
+}
+
+.headImage {
+    flex: 1;
+    width: 100%;
+}
+
+.nameContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: rebeccapurple;
+}
+
+.nameText {
+    line-height: 100vh;
+    font-size: 15vw;
+    display: flex;
+    justify-content: end;
+}
+
+.jobTitleContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    /* background: rebeccapurple; */
+}
+
+
+.dark {
+    background: #111 url("./img/bg1.png");
+}
+
+.purple {
+    background: rebeccapurple url("./img/bg2.png");
+}
+
+.jobTitles {
+    line-height: 100vh;
+    font-size: 10vw;
+    color: #555;
+}
+
+.jobTitles2 {
+    display: flex;
+    justify-content: end;
+    line-height: 100vh;
+    font-size: 10vw;
+    color: #777;
+}
+
+.projectContainer {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: #555;
+}
+
+.projectMainText{
+    font-size: 60px;
+}
+
+
+.projectItemContainer{ 
+    display: flex;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+.projectTextTitle{ 
+    font-size: 35px;
+    border-bottom: 2px solid #555;
+}
+
+.projectTextText {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.viewDemo {
+    margin-top: 15px;
+    background: rgb(0, 153, 255);
+    width: fit-content;
+    padding: 8px 15px;
+    border-radius: 15px;
+    color: #111;
+    cursor:pointer
+}
+
+.mainCharacter {
+    font-size: 50px;
+
+}
+
+.laptopImg {
+    background: url(./img//laptop.png);
+    width: 602px;
+    height: 379px;
+    position: relative;
+}
+
+.laptopImg .image {
+    width: 449px;
+    height: 282px;
+    position: absolute;
+    top: 18px;
+    left: 69px;
+}
+
+.gitText {
+    font-size: 50px;
+    text-align: center;
+}
+
+.link{
+    width: fit-content;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;     
+    line-height: 100vh;
+    display: relative;
+}
+
+
+.githubImage {
+    width: 250px;
+    height: 100px;
+    border: 2px solid #000;
+    background: url(./img/guthub.png);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.githubImage:hover {
+    border: 4px solid #000;   
+}
+ @media screen and (max-width: 768px) {
+    .projectOneContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+ }
