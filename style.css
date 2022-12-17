@@ -116,14 +116,18 @@
 
 .viewDemo {
     margin-top: 15px;
-    background: rgb(0, 153, 255);
     width: fit-content;
     padding: 8px 15px;
     border-radius: 15px;
-    color: #111;
-    cursor:pointer
+    cursor:pointer;
+    background: rgb(0, 153, 255);
 }
 
+.viewDemoLink {
+    color: #111;
+    /* list-style: none; */
+    text-decoration: none;
+}
 .mainCharacter {
     font-size: 50px;
 
